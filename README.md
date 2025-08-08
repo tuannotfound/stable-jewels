@@ -4,7 +4,7 @@
 [Please visit the actual Docs here](https://123ishatest.github.io/igt-docs)
 
 ## Requirements
-- [Nodejs](https://nodejs.org/en/) >= v12.13.0.
+- [Nodejs](https://nodejs.org/en/) >= v12.13.0. <= v16.20.2
 
 ## Project setup
 ```
