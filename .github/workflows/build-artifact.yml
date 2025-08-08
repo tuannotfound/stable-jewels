@@ -19,9 +19,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '12.13.0'
-        cache: 'npm'
-    - run: npm install
+        node-version: 'latest'
     - run: npm run build
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
